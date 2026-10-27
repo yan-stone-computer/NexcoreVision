@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-0ea5a6.svg)](LICENSE)
 [![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-339933.svg)](https://nodejs.org/)
 [![Local first](https://img.shields.io/badge/local--first-images%20stay%20local-2563eb.svg)](#privacy-and-security)
+[![test](https://github.com/yan-stone-computer/NexcoreVision/actions/workflows/test.yml/badge.svg)](https://github.com/yan-stone-computer/NexcoreVision/actions/workflows/test.yml)
 
 NexcoreVision is a small, inspectable visual-evidence layer for text-first AI agents. It runs **OCR**, optional **local CNN inference**, and an **independent vision model** in parallel, then gives the downstream language model a bounded Markdown report with sources kept separate.
 
