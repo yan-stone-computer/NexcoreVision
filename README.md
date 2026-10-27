@@ -11,6 +11,8 @@ NexcoreVision is a small, inspectable visual-evidence layer for text-first AI ag
 
 The project exists for one reason: passing raw image payloads into a chat model is expensive, fragile, and often impossible under a 16K or 32K context window. A screenshot can contain a few hundred useful words and several megabytes of pixels. NexcoreVision extracts the useful evidence first.
 
+**[Read the launch story: “我把 AI 的‘眼睛’拆成了三块，上下文终于不炸了” →](docs/launch.md)**
+
 ```text
 image
   ├─ local OCR ─────────────── exact visible text
