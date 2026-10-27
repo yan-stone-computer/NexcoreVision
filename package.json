@@ -1,0 +1,33 @@
+{
+  "name": "nexcorevision",
+  "version": "0.1.0",
+  "description": "Independent OCR + vision-model evidence pipeline for text-first AI agents.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "nexcore-vision": "./src/cli.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "cli": "node --experimental-strip-types src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "keywords": [
+    "ocr",
+    "vision",
+    "multimodal",
+    "ai-agent",
+    "rag",
+    "context-window"
+  ],
+  "license": "MIT"
+}
