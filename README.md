@@ -11,6 +11,13 @@ NexcoreVision is a small, inspectable visual-evidence layer for text-first AI ag
 
 The project exists for one reason: passing raw image payloads into a chat model is expensive, fragile, and often impossible under a 16K or 32K context window. A screenshot can contain a few hundred useful words and several megabytes of pixels. NexcoreVision extracts the useful evidence first.
 
+![NexcoreVision evidence pipeline](https://cdn.jsdelivr.net/gh/yan-stone-computer/NexcoreVision@main/docs/vision-evidence.png)
+
+### From the running product
+
+![NexcoreWork visual self-check](https://cdn.jsdelivr.net/gh/yan-stone-computer/NexcoreVision@main/docs/product-visual-check.webp)
+
+The screenshot is not a concept: the execution trace, rendered SVG, visual review table and correction reason all came from a real local run.
 **[Read the launch story: “我把 AI 的‘眼睛’拆成了三块，上下文终于不炸了” →](docs/launch.md)**
 
 ```text
